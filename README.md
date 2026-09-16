@@ -13,12 +13,11 @@ Addressed class imbalance using SMOTE and class-weighting
 Tuned hyperparameters with RandomizedSearchCV
 Results
 
-**Final AdaBoost model (class-weighted):** 76% accuracy, 83% recall on churned customers — up from 55% recall in the baseline model.
+**Final model (class-weighted):** 75% accuracy, 76% recall on churned customers.
 
 **Files**
-ML_Model_Building.ipynb — full analysis and model building
+CustomerChurn — full analysis and model building
 Customer-Churn.csv — dataset
-ada_boost_churn_model.pkl — final trained model
 
 **Tools**
 Python, Pandas, Scikit-learn, XGBoost
